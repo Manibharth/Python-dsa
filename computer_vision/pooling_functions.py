@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     testmod(name="avgpooling", verbose=True)
 
-    # Loading the image
+    # Loading the image for the logic value for in the main function 
     image = Image.open("path_to_image")
 
     # Converting the image to numpy array and maxpooling, displaying the result
